@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DistinctentitesApplication",
+            "request": "launch",
+            "mainClass": "com.aliencodes.distinctentites.DistinctentitesApplication",
+            "projectName": "distinctentites"
+        },
+        {
+            "type": "java",
+            "name": "DistinctEntitiesApplication",
+            "request": "launch",
+            "mainClass": "com.aliencodes.distinct_entities.DistinctEntitiesApplication",
+            "projectName": "distinct_entities"
+        },
+        {
+            "type": "java",
+            "name": "SeperateentitiesApplication",
+            "request": "launch",
+            "mainClass": "com.aliencodes.seperateentities.SeperateentitiesApplication"
+        },
+        {
+            "type": "java",
+            "name": "OracledbApplication",
+            "request": "launch",
+            "mainClass": "com.connect.oracledb.OracledbApplication",
+            "projectName": "oracledb"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
