@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EntityRelationsApplication",
+            "request": "launch",
+            "mainClass": "com.aliencodes.entity_relations.EntityRelationsApplication",
+            "projectName": "entity_relations"
+        },
+        {
+            "type": "java",
             "name": "DistinctentitesApplication",
             "request": "launch",
             "mainClass": "com.aliencodes.distinctentites.DistinctentitesApplication",
